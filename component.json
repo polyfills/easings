@@ -1,0 +1,8 @@
+{
+  "name": "easings",
+  "description": "CSS easings as CSS vars",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "reworkcss/easings",
+  "styles": ["index.css"]
+}
