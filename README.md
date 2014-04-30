@@ -34,3 +34,7 @@ body {
   transition: all var(ease-in-back);
 }
 ```
+
+### easings.map
+
+Map of `<name>: <value>` for all the easings.

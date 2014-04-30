@@ -4,5 +4,7 @@
   "version": "1.0.1",
   "license": "MIT",
   "repository": "reworkcss/easings",
+  "scripts": ["index.js"],
+  "json": ["easings.json"],
   "styles": ["index.css"]
 }
