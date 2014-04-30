@@ -26,7 +26,7 @@ var easings = {
   'ease-in-quad': 'cubic-bezier(0.550, 0.085, 0.680, 0.530)',
 }
 
-var re = new RegExp('var\\(\\s*(' + Object.keys(easings).join('|') + ')\\s*\\)', 'g')
+var re = new RegExp('\\bvar\\(\\s*(' + Object.keys(easings).join('|') + ')\\s*\\)', 'g')
 
 module.exports = replace
 

@@ -9,6 +9,11 @@ describe('easings()', function () {
     assert.equal(easings('transition: all var(ease-in-quad);'),
       'transition: all cubic-bezier(0.550, 0.085, 0.680, 0.530);')
   })
+
+  it('should strict match var()', function () {
+    var string = 'jlalskdjasldfvar(ease-in-quad)'
+    assert.equal(easings(string), string)
+  })
 })
 
 describe('easings.css', function () {
