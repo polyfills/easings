@@ -1,4 +1,3 @@
-
 # Easings
 
 [rework-ease](https://github.com/reworkcss/rework-plugin-ease),
@@ -17,7 +16,7 @@ Replace all the `var(<ease>)` variable references with the actual easing functio
 Note that this is a really simple regexp-replace.
 
 ```js
-easings('transition: ease-in-back;')
+easings('transition: var(ease-in-back);')
 // => 'transition: cubic-bezier(0.600, -0.280, 0.735, 0.045);'
 ```
 
