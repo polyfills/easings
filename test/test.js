@@ -2,7 +2,7 @@
 var assert = require('assert')
 var parse = require('css-parse')
 
-var easings = require('./')
+var easings = require('..')
 
 describe('easings()', function () {
   it('should replace easings', function () {
