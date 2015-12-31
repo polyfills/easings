@@ -12,8 +12,8 @@
   "repository": "polyfills/easings",
   "devDependencies": {
     "istanbul": "0",
-    "mocha": "1",
-    "css-parse": "1"
+    "mocha": "2.3.4",
+    "css-parse": "2.0.0"
   },
   "style": "index.css",
   "scripts": {
