@@ -11,7 +11,7 @@
   "license": "MIT",
   "repository": "polyfills/easings",
   "devDependencies": {
-    "istanbul": "0",
+    "istanbul": "0.4.2",
     "mocha": "1",
     "css-parse": "1"
   },
